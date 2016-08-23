@@ -997,6 +997,10 @@ table {
 	padding: 20px;
 	width: 500px;
 }
+form {
+	width:100%;
+	overflow:auto;
+}
 .contents1 div.form input {
 	line-height: 20px;
 	padding: 3px 5px;
