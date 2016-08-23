@@ -84,6 +84,8 @@ body {
 button.btn-menu-mobile {
 	display:none;
 }
+/* Both Tablet and Mobile View */
+
 @media (min-width:320px) and (max-width:960px) {
 .header {
 	margin:20px;
@@ -107,7 +109,7 @@ button.btn-menu-mobile {
 	color: black;
 }
 }
-
+/* mobile view */
 @media (min-width:320px) and (max-width:768px) {
 
 button.btn-menu-mobile {
@@ -145,6 +147,7 @@ button.btn-menu-mobile:hover .header div.navigation {
 }
 
 }
+/* Tablet view */
 @media (min-width:768px) and (max-width:960px) {
 .header div.navigation {
 	display:block;
@@ -951,20 +954,41 @@ width:100%;
 
 }
 /* contact */
-.contents div.ads {
+.contents1 {
+	padding:0;
+}
+.contents1 div.box {
+	width:100%;
+	background-color:white;
+	background-size:conatin;
+}
+.contents1 h1 {
+	color:teal;
+	padding:30px 0 0 40px;
+	text-transform: uppercase;
+}
+.contents1 h2 {
+	font-size: 22px;
+	color:teal;
+	padding-left:40px;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+}
+.contents1 div.ads {
 	float:left;
 	width:40%
 }
-.contents div.ads h3 {
+.contents1 div.ads h3 {
 	padding-left:40px;
 	color:gray;
 	text-transform:uppercase;
 }
-.contents div.ads p {
+.contents1 div.ads p {
 	padding-left:40px;
 	color:gray;
 }
-.contents div.form {
+.contents1 div.form {
+	padding: 0 40px 40px 0;
 	float: left;
 	width:60%;	
 }
@@ -973,38 +997,63 @@ table {
 	padding: 20px;
 	width: 500px;
 }
-.contents div.form input {
+.contents1 div.form input {
 	line-height: 20px;
 	padding: 3px 5px;
-	width:300px;
+	width:250px;
 }
-.contents div.form td {
+.contents1 div.form td {
 	padding-bottom:10px;
 }
-.contents div.form input.button {
+.contents1 div.form input.button {
 	background-color: brown;
 	color:black;
 	width:65px;
 }
-.contents div.form input.button:hover {
+.contents1 div.form input.button:hover {
 	color:black;
 	background-color:teal;
 }
 @media (min-width: 320px)and (max-width: 960px) {
-	.contents div.ads {
+.contents1 {
+	padding:0 40px;
+}
+.contents1 div.box {
+	width:100%;
+	background-color:white;
+	background-size:conatin;
+}
+	
+.contents1 h1 {
+	color:teal;
+	padding:30px 0 0 40px;
+	text-transform: uppercase;
+}
+.contents1 h2 {
+	font-size: 22px;
+	color:teal;
+	padding-left:40px;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+}
+.container5 {
+	display:inline-block;
+	width:100%;
+}
+.contents1 div.ads {
 	float:none;
 	width:auto
 }
-.contents div.ads h3 {
+.contents1 div.ads h3 {
 	padding:0 40px;
 	color:gray;
 	text-transform:uppercase;
 }
-.contents div.ads p {
+.contents1 div.ads p {
 	padding:0 40px;
 	color:gray;
 }
-.contents div.form {
+.contents1 div.form {
 	padding:40px;
 	float: none;
 	width:auto;	
@@ -1012,22 +1061,22 @@ table {
 table {
 	border: 1px solid gray;
 	padding: 20px;
-	width: auto;;
+	width: auto;
 }
-.contents div.form input {
+.contents1 div.form input {
 	line-height: 20px;
 	padding: 3px 5px;
-	width:300px;
+	width:auto;
 }
-.contents div.form td {
+.contents1 div.form td {
 	padding-bottom:10px;
 }
-.contents div.form input.button {
+.contents1 div.form input.button {
 	background-color: brown;
 	color:black;
 	width:65px;
 }
-.contents div.form input.button:hover {
+.contents1 div.form input.button:hover {
 	color:black;
 	background-color:teal;
 }
