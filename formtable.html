@@ -1,0 +1,63 @@
+<! DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validation Form</title>
+</head>
+<body>
+<form name="myform" action="marksheet.html" method="post" onsubmit="validationform();">
+<table border="1">
+<h3> Enter the details </h3>
+<tr><td> Name: <input type="text" name="Name"></td></tr>
+<tr><td> Date-Of-Birth: <input type="date" name="DOF"></td></tr>
+<tr><td> Email: <input type="email" name="Email"></td></tr>
+<tr><td> Password: <input type="password" name="psw"></td></tr>
+<tr><td> Gender: </td>
+<td><input id="male" type="radio" name="male" value="Male">
+<label for="male"> Male </label> </td>
+<td><input id="female" type="radio" name="female" value="Female">
+<label for="female"> Female </label> </td></tr>
+<tr><td> Age: </td>
+<td><select name="age">
+<option value="-1">Enter your age</option>
+<option value="20-25">20-25</option>
+<option value="26-30">26-30</option>
+<option value="31-35">31-35</option>
+<option value="36-40">36-40</option>
+</select></td></tr>
+<tr><td> Enter your Qualification: </td>
+<td><input id="BE" type="checkbox" name="cname" value="BE"/>
+<label for="BE"> BE </label> </td>
+<td><input id="ME" type="checkbox" name="cname" value="ME"/>
+<label for="ME"> ME </label> </td>
+<td><input id="BSC" type="checkbox" name="cname" value="BSC"/>
+<label for="BSC"> BSC </label> </td>
+<td><input id="MCA" type="checkbox" name="cname" value="MCA"/>
+<label for="MCA"> MCA </label> </td>
+</tr>
+<tr><td> Area of Interest</td>
+<td><select name="area">
+<option value="-1">Choose</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="SQL">SQL</option>
+<option value="JAVA">JAVA</option>
+<option value="c">C</option>
+<option value="C++">C++</option>
+<option value="PHP">PHP</option>
+<option value="JQUERY">JQUERY</option>
+</select></tr>
+<tr><td> URL Homepage: <input type="url" name="homepage"> </td></tr>
+<tr> <td> Address: <textarea rows="10" cols="25" name="address"> </textarea></tr>
+<tr><td>Mobile number:<input type="tel" name="Number" ></td> </tr>
+<tr><td> No.Of Days: <input type="number" name="number"></td></tr>
+<tr><td>Current time: <input type="time" name="Currenttime"></td></tr>
+<tr><td>FavColor: <input type= "color" name="favcolor">
+<tr><td><input type="submit" name="submit"></td>
+<td> <input type="reset" name="reset"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
